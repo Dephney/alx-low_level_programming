@@ -9,8 +9,8 @@ int main(void)
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		printf("%c\n", alpha);
-
+		putchar("%c", alpha);
+	putchar('\n');
 	return (0);
 }
 
