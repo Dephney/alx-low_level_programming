@@ -9,7 +9,7 @@ int main(void)
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		printf("%c", alpha);
+		printf("%c\n", alpha);
 
 	return (0);
 }
