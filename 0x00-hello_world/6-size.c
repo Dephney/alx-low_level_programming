@@ -2,9 +2,8 @@
 
 /*
  * main - Entry point
- * description: a function that prints out the size of
- * int,float,char,long int and long long int
- * return Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
