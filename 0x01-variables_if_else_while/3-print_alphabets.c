@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- * description: a function tha prints out alphabets
- * in lowercase and uppercase
- * return: Always 0 (Success)
+ *
+ * Return: Always 0 (SUccess)
  */
 int main(void)
 {
@@ -18,3 +17,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
