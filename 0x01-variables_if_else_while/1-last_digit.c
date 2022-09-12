@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
 	int last_digit;
-	char str[] = "Last digit of ";
+	char str[] = "Last digit of";
 
 	srand(time(0));
 
