@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,5 +12,5 @@ int main(void)
 	char p[] = "_putchar";
 
 	_putchar(p);
-	return ();
+	return (0);
 }
