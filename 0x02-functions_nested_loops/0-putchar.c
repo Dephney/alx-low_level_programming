@@ -6,11 +6,14 @@
  *
  * Return - Always  (Success)
  */
-
 int main(void)
 {
-	char p[] = "_putchar";
-
-	_putchar(p);
+	char str[8] = "_putchar";
+	for (int i = 0; i < 8; i++)
+	{
+		char c = str[i];
+		_putchar(c);
+	}
+	_putchar("\n");
 	return (0);
 }
