@@ -15,3 +15,4 @@ int main(void)
 	positive_or_negative(n);
 
 	return (0);
+}
