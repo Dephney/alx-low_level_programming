@@ -19,6 +19,4 @@ void more_numbers(void)
 
 		if ( j > '9')
 		{
-			
-
 }
