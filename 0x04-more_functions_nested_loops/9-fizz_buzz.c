@@ -24,3 +24,5 @@ void fizz_buzz(void)
 		else
 			printf("%d ", i);
 	}
+	_putchar('\n');
+}
