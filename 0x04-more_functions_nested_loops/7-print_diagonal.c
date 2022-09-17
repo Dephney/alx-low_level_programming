@@ -28,8 +28,5 @@ void print_diagonal(int n)
 
 		}
 	}
-
 	return (0);
-
 }
-
