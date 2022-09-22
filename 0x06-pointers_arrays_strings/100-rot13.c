@@ -23,10 +23,13 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (row1[j] == s[i])
+		for (j = 0; j < 53; j++)
 		{
-			s[i] = row2[j];
-			break;
+			if (row1[j] == s[i])
+			{
+				s[i] = row2[j];
+				break;
+			}
 		}
 	}
 
