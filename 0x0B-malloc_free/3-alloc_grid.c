@@ -26,16 +26,13 @@ int **alloc_grid(int width, int height)
 
 		if (_2DArray[i] == NULL)
 		{
-			for (; i >= 0; i--)
-				free(_2DArray[i]);
+			for (j = 0; i < i ; j--)
+				free(_2DArray[j]);
 
 			free(_2DArray);
 			return (NULL);
 		}
-	}
 
-	for (i = 0; i < height; i++)
-	{
 		for (j = 0; j < width; j++)
 			_2DArray[i][j] = 0;
 	}
